@@ -1,0 +1,2 @@
+survey,production_year,area_covered_acres,bearing_area_ha,ffb_production_tonnes,cpo_production_tonnes,reported_yield_tonnes_per_ha,yield_type,source_page,source_url,notes
+AP Socio-Economic Survey 2023-24,2022-23,568000,,1895000,331000,19.81,Government-reported average bearing-plantation productivity,82,https://s3.ap-south-1.amazonaws.com/apfinance.gov.in/uploads/index-docs/Socio_Economic_Survey_2023-24.pdf,Area covered is not confirmed bearing area. Do not calculate yield using this area.

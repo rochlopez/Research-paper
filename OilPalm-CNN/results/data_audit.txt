@@ -1,0 +1,136 @@
+OIL-PALM PROJECT: DATA AUDIT
+============================================================
+Project folder: C:\Users\Roch Lopez\Downloads\code\research paper\OilPalm-CNN
+
+1. PYTHON PACKAGES
+numpy: 1.26.4
+pandas: 2.3.3
+rasterio: 1.4.4
+torch: 2.14.1
+scikit-learn: 1.7.2
+matplotlib: 3.10.9
+
+2. RASTER FILES
+
+File: AP_OilPalm_Reference_Labels.tif
+Dimensions: 1190 x 1171
+Band count: 1
+CRS: EPSG:4326
+Bounds: BoundingBox(left=81.0765476529233, bottom=16.777385403858244, right=81.18344717173352, top=16.88257812362864)
+Pixel size/transform: | 0.00, 0.00, 81.08|
+| 0.00,-0.00, 16.88|
+| 0.00, 0.00, 1.00|
+Band descriptions: ('classification',)
+Nodata value: None
+Data types: ('int8',)
+File size: 47,832 bytes
+Reference band-1 value counts:
+  0: 1,129,498 pixels
+  1: 67,551 pixels
+  2: 196,441 pixels
+
+File: AP_Sentinel2_2024_AllBands_Test.tif
+Dimensions: 558 x 558
+Band count: 15
+CRS: EPSG:4326
+Bounds: BoundingBox(left=79.99982695337764, bottom=15.9998935254528, right=80.10007893908538, top=16.100145511160537)
+Pixel size/transform: | 0.00, 0.00, 80.00|
+| 0.00,-0.00, 16.10|
+| 0.00, 0.00, 1.00|
+Band descriptions: ('B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B8A', 'B9', 'B11', 'B12', 'NDVI', 'NDMI', 'EVI')
+Nodata value: None
+Data types: ('float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32')
+File size: 15,533,663 bytes
+
+File: AP_Sentinel2_2024_Tile_1.tif
+Dimensions: 261 x 251
+Band count: 15
+CRS: EPSG:4326
+Bounds: BoundingBox(left=81.0765476529233, bottom=16.777475235386653, right=81.12343971075434, top=16.822570662649454)
+Pixel size/transform: | 0.00, 0.00, 81.08|
+| 0.00,-0.00, 16.82|
+| 0.00, 0.00, 1.00|
+Band descriptions: ('B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B8A', 'B9', 'B11', 'B12', 'NDVI', 'NDMI', 'EVI')
+Nodata value: None
+Data types: ('float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32')
+File size: 3,100,711 bytes
+
+File: AP_Sentinel2_2024_Tile_2.tif
+Dimensions: 261 x 251
+Band count: 15
+CRS: EPSG:4326
+Bounds: BoundingBox(left=81.13655511390247, bottom=16.777475235386653, right=81.18344717173352, top=16.822570662649454)
+Pixel size/transform: | 0.00, 0.00, 81.14|
+| 0.00,-0.00, 16.82|
+| 0.00, 0.00, 1.00|
+Band descriptions: ('B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B8A', 'B9', 'B11', 'B12', 'NDVI', 'NDMI', 'EVI')
+Nodata value: None
+Data types: ('float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32')
+File size: 3,097,775 bytes
+
+File: AP_Sentinel2_2024_Tile_3.tif
+Dimensions: 261 x 251
+Band count: 15
+CRS: EPSG:4326
+Bounds: BoundingBox(left=81.0765476529233, bottom=16.83748269636584, right=81.12343971075434, top=16.88257812362864)
+Pixel size/transform: | 0.00, 0.00, 81.08|
+| 0.00,-0.00, 16.88|
+| 0.00, 0.00, 1.00|
+Band descriptions: ('B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B8A', 'B9', 'B11', 'B12', 'NDVI', 'NDMI', 'EVI')
+Nodata value: None
+Data types: ('float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32')
+File size: 3,082,102 bytes
+
+File: AP_Sentinel2_2024_Tile_4.tif
+Dimensions: 261 x 251
+Band count: 15
+CRS: EPSG:4326
+Bounds: BoundingBox(left=81.13655511390247, bottom=16.83748269636584, right=81.18344717173352, top=16.88257812362864)
+Pixel size/transform: | 0.00, 0.00, 81.14|
+| 0.00,-0.00, 16.88|
+| 0.00, 0.00, 1.00|
+Band descriptions: ('B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B8A', 'B9', 'B11', 'B12', 'NDVI', 'NDMI', 'EVI')
+Nodata value: None
+Data types: ('float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32', 'float32')
+File size: 3,103,336 bytes
+
+3. PREPARED ARRAYS
+X_patches_thresholded.npy: shape=(156, 15, 32, 32), dtype=float32
+y_labels_thresholded.npy: shape=(156,), dtype=int64
+  Label counts: {0: 80, 1: 76}
+X_patches_supervised.npy: shape=(147, 15, 32, 32), dtype=float32
+y_labels_supervised.npy: shape=(147,), dtype=int64
+  Label counts: {0: 139, 1: 8}
+
+4. PATCH METADATA
+thresholded_patch_labels.csv: 156 rows
+Columns: ['tile', 'row', 'col', 'palm_fraction', 'label']
+                        tile  row  col  palm_fraction  label
+AP_Sentinel2_2024_Tile_1.tif    0    0         0.0000      0
+AP_Sentinel2_2024_Tile_1.tif    0   32         0.0000      0
+AP_Sentinel2_2024_Tile_1.tif    0   64         0.0439      0
+AP_Sentinel2_2024_Tile_1.tif    0   96         0.0107      0
+AP_Sentinel2_2024_Tile_1.tif    0  128         0.0195      0
+supervised_patch_labels.csv: 147 rows
+Columns: ['tile', 'row', 'col', 'reference_class', 'binary_label', 'label_purity']
+                        tile  row  col  reference_class  binary_label  label_purity
+AP_Sentinel2_2024_Tile_1.tif    0    0                0             0        1.0000
+AP_Sentinel2_2024_Tile_1.tif    0   32                0             0        1.0000
+AP_Sentinel2_2024_Tile_1.tif    0   64                0             0        0.9561
+AP_Sentinel2_2024_Tile_1.tif    0   96                0             0        0.9893
+AP_Sentinel2_2024_Tile_1.tif    0  128                0             0        0.9805
+
+5. RESULTS FILES
+AP_Sentinel2_2024_Tile_1_prediction.tif: 2,313 bytes
+AP_Sentinel2_2024_Tile_1_probability.tif: 19,765 bytes
+AP_Sentinel2_2024_Tile_2_prediction.tif: 2,598 bytes
+AP_Sentinel2_2024_Tile_2_probability.tif: 19,677 bytes
+AP_Sentinel2_2024_Tile_3_prediction.tif: 2,705 bytes
+AP_Sentinel2_2024_Tile_3_probability.tif: 19,696 bytes
+AP_Sentinel2_2024_Tile_4_prediction.tif: 2,789 bytes
+AP_Sentinel2_2024_Tile_4_probability.tif: 19,717 bytes
+prediction_visualization.png: 3,728,848 bytes
+supervised_cnn_final.pth: 31,875 bytes
+supervised_cnn_tile_evaluation.csv: 537 bytes
+vegetation_summary.csv: 385 bytes
+vegetation_summary.png: 67,515 bytes

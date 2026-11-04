@@ -1,0 +1,7 @@
+year,total_area_ha,bearing_area_ha,ffb_production_tonnes,cpo_production_tonnes,yield_tonnes_per_bearing_ha,notes
+2018-19,,,1379215,,,"FFB from Agricultural Statistics at a Glance, Table 2.26; area/yield not yet verified"
+2019-20,172000.0,141000.0,1277760,208000.0,19.81,FFB from Table 2.26; area/bearing area/yield from AP Socio Economic Survey 2020-21; verify definitions before combining
+2020-21,,,1471521,,,"FFB from Agricultural Statistics at a Glance, Table 2.26; area/yield not yet verified"
+2021-22,,,1722457,,,"FFB from Agricultural Statistics at a Glance, Table 2.26; area/yield not yet verified"
+2022-23,,,1848209,331000.0,,FFB from Table 2.26; CPO figure from AP Socio Economic Survey 2023-24; verify source definitions
+2023-24,227000.0,,1897147,310000.0,,FFB from Table 2.26; area/CPO figures from AP Socio Economic Survey 2024-25 may differ by source; verify before modeling
